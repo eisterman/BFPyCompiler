@@ -17,4 +17,4 @@ if __name__ == '__main__':
     env.Parse()
     env.Precompile()
     env.Compile()
-    print(env.Code)
+    print(env.BFCode)
